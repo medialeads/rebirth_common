@@ -1,0 +1,10 @@
+{
+  "name": "es/rebirth-common",
+  "license": "proprietary",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "ES\\RebirthCommon\\": ""
+    }
+  }
+}
