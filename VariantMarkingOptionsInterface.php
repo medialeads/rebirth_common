@@ -50,52 +50,34 @@ interface VariantMarkingOptionsInterface
     const QUANTITY = 'quantite';
 
     /**
-     * @return float|null
+     * @var string
+     */
+    const KEYS = 'cles';
+
+    /**
+     * @var string
+     */
+    const MARKINGS_COUNT = 'nb_marquages';
+
+    /**
+     * @return float|string|null
      */
     public function getLength();
 
     /**
-     * @param float|null $length
-     *
-     * @return VariantMarkingOptionsInterface
-     */
-    public function setLength($length);
-
-    /**
-     * @return float|null
+     * @return float|string|null
      */
     public function getWidth();
 
     /**
-     * @param float|null $width
-     *
-     * @return VariantMarkingOptionsInterface
-     */
-    public function setWidth($width);
-
-    /**
-     * @return float|null
+     * @return float|string|null
      */
     public function getSquaredSize();
 
     /**
-     * @param float|null $squaredSize
-     *
-     * @return VariantMarkingOptionsInterface
-     */
-    public function setSquaredSize($squaredSize);
-
-    /**
-     * @return float|null
+     * @return float|string|null
      */
     public function getDiameter();
-
-    /**
-     * @param float|null $diameter
-     *
-     * @return VariantMarkingOptionsInterface
-     */
-    public function setDiameter($diameter);
 
     /**
      * @return int|null
@@ -103,23 +85,9 @@ interface VariantMarkingOptionsInterface
     public function getNumberOfColors();
 
     /**
-     * @param int|null $numberOfColors
-     *
-     * @return VariantMarkingOptionsInterface
-     */
-    public function setNumberOfColors($numberOfColors);
-
-    /**
      * @return int|null
      */
     public function getNumberOfPositions();
-
-    /**
-     * @param int|null $numberOfPositions
-     *
-     * @return VariantMarkingOptionsInterface
-     */
-    public function setNumberOfPositions($numberOfPositions);
 
     /**
      * @return int|null
@@ -127,21 +95,7 @@ interface VariantMarkingOptionsInterface
     public function getNumberOfLogos();
 
     /**
-     * @param int|null $numberOfLogos
-     *
-     * @return VariantMarkingOptionsInterface
-     */
-    public function setNumberOfLogos($numberOfLogos);
-
-    /**
      * @return bool
      */
     public function isFullColor();
-
-    /**
-     * @param bool $fullColor
-     *
-     * @return VariantMarkingOptionsInterface
-     */
-    public function setFullColor($fullColor);
 }
