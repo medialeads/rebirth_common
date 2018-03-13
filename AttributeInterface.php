@@ -2,13 +2,8 @@
 
 namespace ES\RebirthCommon;
 
-interface AttributeInterface
+interface AttributeInterface extends ModelInterface
 {
-    /**
-     * @return string
-     */
-    public function getUniqueId();
-
     /**
      * @return string|null
      */

@@ -2,7 +2,7 @@
 
 namespace ES\RebirthCommon;
 
-interface ProductInterface
+interface ProductInterface extends ModelInterface
 {
     /**
      * @return VariantInterface[]
