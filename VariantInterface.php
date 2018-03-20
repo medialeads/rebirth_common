@@ -25,6 +25,11 @@ interface VariantInterface extends ModelInterface
     public function getVariantPrices();
 
     /**
+     * @return VariantMarkingInterface[]
+     */
+    public function getVariantMarkings();
+
+    /**
      * @return VariantMinimumQuantityInterface[]
      */
     public function getVariantMinimumQuantities();

@@ -60,6 +60,16 @@ interface VariantMarkingOptionsInterface
     const MARKINGS_COUNT = 'nb_marquages';
 
     /**
+     * @var string
+     */
+    const POSITION = 'position';
+
+    /**
+     * @var string
+     */
+    const MARKING = 'marquage';
+
+    /**
      * @return float|string|null
      */
     public function getLength();
@@ -98,4 +108,14 @@ interface VariantMarkingOptionsInterface
      * @return bool
      */
     public function isFullColor();
+
+    /**
+     * @return MarkingPositionInterface|null
+     */
+    public function getMarkingPosition();
+
+    /**
+     * @return MarkingInterface
+     */
+    public function getMarking();
 }
