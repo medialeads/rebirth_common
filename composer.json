@@ -6,5 +6,8 @@
     "psr-4": {
       "ES\\RebirthCommon\\": ""
     }
+  },
+  "require": {
+    "moneyphp/money": "^3.1"
   }
 }
